@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	$('#illust').on('click', function(){
-		window.location.replace('index.html');
+	$('#works').on('click', function(){
+		window.location.replace('works.html');
 	});
 
 	$('#about').on('click', function(){
@@ -9,5 +9,17 @@ $(document).ready(function(){
 
 	$('#contact').on('click', function(){
 		window.location.replace('contact.html');
+	});
+	
+	$('.top-name').on('click', function(){
+		window.location.replace('index.html');
+	});
+	
+	$('#condes').on('click', function(){
+		$('#icont').prop('src', 'concept-design.html'); 
+	});
+	
+	$('#illusts').on('click', function(){
+		$('#icont').prop('src', 'illustration.html');
 	});
 });
