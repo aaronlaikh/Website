@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 	console.log("making call");
 	$.ajax({
-		url: 'images/',
+		url: 'images/mhxa.jpg',
 		success: function(data){
 			console.log(data);
 		}
