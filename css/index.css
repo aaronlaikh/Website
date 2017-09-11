@@ -1,0 +1,95 @@
+		html body{
+			margin: 0;
+			padding: 0;
+			font-family: Georgia, Times, 'Times New Roman', serif;
+			font-size: 12px;
+			min-width: 600px;
+		}
+		
+		p{
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 12px;
+			text-align: center;
+		}
+
+		img{
+			width: 100%;
+			height: 100%;
+		}
+
+		.header {
+			margin-top: 12%;
+			width: 100%;
+			text-align: center;
+			font-size: 36px;
+		}
+
+		.subheader {
+			padding-top: 5px;
+			font-size: 14px;
+			padding-bottom: 14px;
+		}
+		
+		.container {
+			width: 100%;
+			height: 30%;
+			min-height: 300px;
+			min-width: 600px;
+			overflow: hidden;
+		}
+
+		.nav-container {
+			position: absolute;
+			z-index: 5;
+			display: inline-block;
+			z-index: 2;
+			width: 25%;
+			min-height: 300px;
+			padding-top: 125px;
+		}
+
+		.nav-button {
+			text-transform: uppercase;
+			padding: 5px;
+			text-align: left;
+			margin-left: 20%;
+			font-size: 30px;
+			cursor: pointer;
+			transition: all 0.8s ease;
+			-webkit-transition: all 0.5s ease;
+		}
+
+		.nav-button:hover {
+			color: #fff;
+			text-shadow: 0 0 12px #55aacc;
+		}
+
+		#nav1{
+
+		}
+
+		#nav2{
+			padding-left: 50px;
+		}
+
+		#nav3 {
+			padding-left: 100px;
+		}
+
+		.scroller {
+			position: absolute;
+			
+			z-index: -1;
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			overflow: hidden;
+		}
+
+		.footer {
+			position: fixed;
+			z-index: 999;
+			width: 100%;
+			bottom: 10px;
+			text-align: center;
+		}
