@@ -64,17 +64,14 @@ function focusImage(thumb){
 	var divImg = $('<img class="full-img"></img>');
 	divImg.attr("src", "./images/full/"+ imgurl);
 	newDiv.append(divImg);
-	//newDiv.css("background-image", 'url("./images/full/'+ imgurl +'")');
 	modal.append(newDiv);
 }
 
 function openModal(){
 	$('.modal').show();
-
 }
 
 function closeModal(){
 	$('.modal-content').empty();
 	$('.modal').hide();
 
-}
