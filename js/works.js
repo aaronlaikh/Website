@@ -1,3 +1,4 @@
+
 //var imgNameArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 var imgNameArray = ["2.jpg", "5.jpg"];
 
@@ -8,6 +9,7 @@ $(document).ready(function(){
 	loadThumbnails();
 
 	//page redirect
+$(document).ready(function(){
 	$('#works').on('click', function(){
 		window.location.replace('works.html');
 	});
