@@ -75,3 +75,4 @@ function closeModal(){
 	$('.modal-content').empty();
 	$('.modal').hide();
 
+}
